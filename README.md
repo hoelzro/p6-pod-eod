@@ -18,7 +18,7 @@ DOC INIT {
 
 # Now the "Example sub" POD appears after
 # the "OTHER POD" POD!
-```perl6
+```
 
 # Description
 
