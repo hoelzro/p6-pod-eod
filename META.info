@@ -1,11 +1,11 @@
 {
-  "name" : "Pod::DeclarationsAtEnd",
-  "source-url" : "https://github.com/hoelzro/p6-pod-declarationsatend.git",
+  "name" : "Pod::EOD",
+  "source-url" : "https://github.com/hoelzro/p6-pod-eod.git",
   "perl" : "6.c",
   "provides" : {
-    "Pod::DeclarationsAtEnd" : "lib/Pod/DeclarationsAtEnd.pm"
+    "Pod::EOD" : "lib/Pod/EOD.pm"
   },
-  "description" : "Moves declarative POD blocks to the end of the POD",
+  "description" : "Moves declarative POD blocks to the end of the POD, allowing for end-of-document style POD",
   "version" : "0.1.0",
   "authors" : [
     "Rob Hoelz"

@@ -15,7 +15,7 @@ DOC INIT {
 
 =head1 NAME
 =begin pod
-Pod::DeclarationsAtEnd - Moves declarative POD blocks to the end of the POD
+Pod::EOD - Moves declarative POD blocks to the end of the POD
 =end pod
 =head1 SYNOPSIS
 =begin code
@@ -23,7 +23,7 @@ Pod::DeclarationsAtEnd - Moves declarative POD blocks to the end of the POD
 my sub example {}
 
 DOC INIT {
-    use Pod::DeclarationsAtEnd;
+    use Pod::EOD;
     move-declarations-to-end($=pod);
 }
 

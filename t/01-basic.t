@@ -1,6 +1,6 @@
 use v6;
 use Test;
-use Pod::DeclarationsAtEnd;
+use Pod::EOD;
 
 plan *;
 
