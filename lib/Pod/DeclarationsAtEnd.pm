@@ -14,7 +14,9 @@ DOC INIT {
 }
 
 =head1 NAME
+=begin pod
 Pod::DeclarationsAtEnd - Moves declarative POD blocks to the end of the POD
+=end pod
 =head1 SYNOPSIS
 =begin code
 #| Example sub!
@@ -33,6 +35,7 @@ DOC INIT {
 =end code
 
 =head1 DESCRIPTION
+=begin pod
 Many authors from a Perl 5 background (like myself) write POD in a "all POD
 at the end" style; this keeps it out of the way when you're looking at the
 code, but in the same file.  However, POD blocks are inserted into C<$=pod>
@@ -42,13 +45,15 @@ POD blocks to the end of the POD document, so that the developer can keep
 their POD at the end, and the user can read the high-level overview of the
 module before encountering the reference section provided by declarative
 blocks.
+=end pod
 
 =head1 AUTHOR
+=begin pod
 Rob Hoelz
+=end pod
 
-=begin head1
-COPYRIGHT AND LICENSE
-
+=head1 COPYRIGHT AND LICENSE
+=begin pod
 Copyright (c) 2016 Rob Hoelz
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -68,6 +73,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-=end head1
+=end pod
 
 =head1 REFERENCE
