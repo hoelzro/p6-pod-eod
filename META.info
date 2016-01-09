@@ -1,0 +1,13 @@
+{
+  "name" : "Pod::DeclarationsAtEnd",
+  "source-url" : "https://github.com/hoelzro/p6-pod-declarationsatend.git",
+  "perl" : "6.c",
+  "provides" : {
+    "Pod::DeclarationsAtEnd" : "lib/Pod/DeclarationsAtEnd.pm"
+  },
+  "description" : "Moves declarative POD blocks to the end of the POD",
+  "version" : "0.1.0",
+  "authors" : [
+    "Rob Hoelz"
+  ]
+}
